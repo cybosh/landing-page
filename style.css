@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.head, .footer {
+    background-color: #1f2937;
+}
+
+.text {
+   font-size: 18px;
+   color: #e5e7eb; 
+}
+
+img {
+    border: 2px #3882f6;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 6px;
+    border: 1px solid;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    padding-top: 16px;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.header-links{
+    display: flex;
+    gap: 16px;
+}
+
+.hero-section {
+    display: flex;
+    width: 800px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hero-1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    width: 150px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    width: 800px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.call {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.call-subtext {
+    color: #f9faf8;
+}
+
+.blue-box-button {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
